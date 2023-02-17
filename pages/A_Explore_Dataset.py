@@ -9,6 +9,7 @@ import os
 import tarfile
 import urllib.request
 
+
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml2/master/"
 HOUSING_PATH = os.path.join("datasets", "housing")
 HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
@@ -25,6 +26,7 @@ feature_lookup = {
     'ocean_proximity':'**ocean_proximity** - distance from the ocean',
     'median_house_value':'**median_house_value**'
 }
+
 
 #############################################
 
